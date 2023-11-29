@@ -33,9 +33,7 @@ export const App = () => {
           return alert('not found images')
         }
 
-        setImgArr(prevState => [...prevState, ...hits]) /* думаю, эту строку
-        нужно ебануть в юзефект, так как, фетч должен только фетчить и ничего
-        больше не делать */
+        setImgArr(prevState => [...prevState, ...hits]) 
       }
       catch (error) {
         console.log(error);
