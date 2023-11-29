@@ -83,7 +83,7 @@ export const App = () => {
   )
 }
 
-/* xport class App extends Component {
+/* export class App extends Component {
   state = {
     query: '',
     page: 1,

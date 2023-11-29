@@ -16,4 +16,3 @@ const ImageGallery = ({ imgArr, showModal }) => {
 }
 
 export default ImageGallery
-
