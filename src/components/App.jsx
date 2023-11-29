@@ -16,6 +16,9 @@ export const App = () => {
   const [modalInfo, setModalInfo] = useState({})
 
   useEffect(() => {
+    if (!query) {
+      return
+    }
     fetchImgArr()
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [query, page]);
