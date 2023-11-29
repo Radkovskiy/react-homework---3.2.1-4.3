@@ -33,7 +33,7 @@ export const App = () => {
           return alert('not found images')
         }
 
-        setImgArr(prevState => [...prevState, ...hits]) 
+        setImgArr(prevState => [...prevState, ...hits])
       }
       catch (error) {
         console.log(error);
@@ -80,7 +80,7 @@ export const App = () => {
   )
 }
 
-/* export class App extends Component {
+/* xport class App extends Component {
   state = {
     query: '',
     page: 1,
